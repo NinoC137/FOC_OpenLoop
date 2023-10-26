@@ -1,0 +1,3 @@
+/home/nino/CLionProjects/FOC_OpenLoop/cmake-build-debug/CMakeFiles/FOC_OpenLoop.elf.dir
+/home/nino/CLionProjects/FOC_OpenLoop/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nino/CLionProjects/FOC_OpenLoop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
