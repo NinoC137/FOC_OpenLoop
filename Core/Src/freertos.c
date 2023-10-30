@@ -85,8 +85,8 @@ void MotorTask(void const * argument){
     {
 //        i2c_mt6701_get_angle(&FOC_angle, &FOC_angle_f);
         uart_printf("Angle: %d", FOC_angle);
-        velocityOpenLoop(5);
-        osDelay(1);
+        velocityOpenLoop(10);
+        osDelay(5);
     }
 }
 /* USER CODE END Application */

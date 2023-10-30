@@ -184,7 +184,7 @@ float velocityOpenLoop(float target_velocity) {
 
     // 使用早前设置的voltage_power_supply的1/3作为Uq值，这个值会直接影响输出力矩
     // 最大只能设置为Uq = voltage_power_supply/2，否则ua,ub,uc会超出供电电压限幅
-    float Uq = voltage_power_supply / 8.0f;
+    float Uq = voltage_power_supply / 12.0f;
 
     setPhaseVoltage(Uq, 0, _electricalAngle(shaft_angle, 7));
 
