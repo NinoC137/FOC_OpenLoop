@@ -128,8 +128,8 @@ void setPWM(float Ua, float Ub, float Uc) {
 
     //写入PWM通道
             __HAL_TIM_SetCompare(&htim2, TIM_CHANNEL_1, dc_a * htim2.Init.Period);
-            __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_1, dc_a * htim3.Init.Period);
-            __HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, dc_a * htim4.Init.Period);
+            __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_1, dc_b * htim3.Init.Period);
+            __HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, dc_c * htim4.Init.Period);
 }
 
 void setTorque(float Uq, float angle_el) {
@@ -168,13 +168,13 @@ void setPhaseVoltage(float Uq, float Ud, float angle_elec) {
 
 //开环速度函数
 float velocityOpenLoop(float target_velocity) {
-    unsigned long now_us = osKernelSysTick();  //获取从开启芯片以来的微秒数，它的精度是 1ms
+    unsigned long now_us = HAL_GetTick();  //获取从开启芯片以来的微秒数，它的精度是 1ms
 
     //计算当前每个Loop的运行时间间隔
-    float Ts = (now_us - open_loop_timestamp) * 1e-3f;
-
+//    float Ts = (now_us - open_loop_timestamp) * 1e-3f;
+    float Ts = 10E-3f;
     //由于 micros() 函数返回的时间戳会在大约 70 分钟之后重新开始计数，在由70分钟跳变到0时，TS会出现异常，因此需要进行修正。如果时间间隔小于等于零或大于 0.5 秒，则将其设置为一个较小的默认值，即 1e-3f
-    if (Ts <= 0 || Ts > 0.5f) Ts = 1e-2f;
+//    if (Ts <= 0 || Ts > 0.5f) Ts = 5 * 1e-2f;
 
 
     // 通过乘以时间间隔和目标速度来计算需要转动的机械角度，存储在 shaft_angle 变量中。在此之前，还需要对轴角度进行归一化，以确保其值在 0 到 2π 之间。
