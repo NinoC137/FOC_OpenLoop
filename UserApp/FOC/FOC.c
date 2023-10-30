@@ -171,8 +171,8 @@ float velocityOpenLoop(float target_velocity) {
     unsigned long now_us = HAL_GetTick();  //获取从开启芯片以来的微秒数，它的精度是 1ms
 
     //计算当前每个Loop的运行时间间隔
-//    float Ts = (now_us - open_loop_timestamp) * 1e-3f;
-    float Ts = 10E-3f;
+    float Ts = (now_us - open_loop_timestamp) * 1e-3f;
+
     //由于 micros() 函数返回的时间戳会在大约 70 分钟之后重新开始计数，在由70分钟跳变到0时，TS会出现异常，因此需要进行修正。如果时间间隔小于等于零或大于 0.5 秒，则将其设置为一个较小的默认值，即 1e-3f
 //    if (Ts <= 0 || Ts > 0.5f) Ts = 5 * 1e-2f;
 
@@ -184,7 +184,7 @@ float velocityOpenLoop(float target_velocity) {
 
     // 使用早前设置的voltage_power_supply的1/3作为Uq值，这个值会直接影响输出力矩
     // 最大只能设置为Uq = voltage_power_supply/2，否则ua,ub,uc会超出供电电压限幅
-    float Uq = voltage_power_supply / 3;
+    float Uq = voltage_power_supply / 8.0f;
 
     setPhaseVoltage(Uq, 0, _electricalAngle(shaft_angle, 7));
 

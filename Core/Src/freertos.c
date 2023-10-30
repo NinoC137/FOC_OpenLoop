@@ -79,14 +79,14 @@ void MotorTask(void const * argument){
     int sensorDir = 1; //传感器判定方向
 
     FOC_Vbus(12.0f);
-    FOC_alignSensor(Motor_PP, sensorDir);
+//    FOC_alignSensor(Motor_PP, sensorDir);
 
     for(;;)
     {
-        i2c_mt6701_get_angle(&FOC_angle, &FOC_angle_f);
+//        i2c_mt6701_get_angle(&FOC_angle, &FOC_angle_f);
         uart_printf("Angle: %d", FOC_angle);
-        velocityOpenLoop(3);
-        osDelay(10);
+        velocityOpenLoop(5);
+        osDelay(1);
     }
 }
 /* USER CODE END Application */
