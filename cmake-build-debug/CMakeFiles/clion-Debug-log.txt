@@ -1,19 +1,45 @@
-/snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/250/bin/ninja/linux/x64/ninja -G Ninja -S /home/nino/CLionProjects/FOC_OpenLoop -B /home/nino/CLionProjects/FOC_OpenLoop/cmake-build-debug
--- The C compiler identification is GNU 10.3.1
--- The CXX compiler identification is GNU 10.3.1
+"E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=E:/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=E:/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" -S E:\Clion_for_STM32\FOC_OpenLoop -B E:\Clion_for_STM32\FOC_OpenLoop\cmake-build-debug
+-- The CXX compiler identification is GNU 10.2.1
 -- The ASM compiler identification is GNU
--- Found assembler: /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
+-- Found assembler: E:/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc.exe
 -- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Minimal optimization, debug info included
--- Configuring done (0.3s)
--- Generating done (0.0s)
--- Build files have been written to: /home/nino/CLionProjects/FOC_OpenLoop/cmake-build-debug
+-- Detecting CXX compiler ABI info - failed
+-- Check for working CXX compiler: E:/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++.exe
+-- Check for working CXX compiler: E:/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++.exe - broken
+CMake Error at E:/CLion/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake:63 (message):
+  The C++ compiler
+
+    "E:/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kqvljg
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c63dd/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c63dd.dir\build.make CMakeFiles/cmTC_c63dd.dir/build
+    mingw32-make.exe[1]: Entering directory 'E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kqvljg'
+    Building CXX object CMakeFiles/cmTC_c63dd.dir/testCXXCompiler.cxx.obj
+    E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-g++.exe   -fdiagnostics-color=always -o CMakeFiles\cmTC_c63dd.dir\testCXXCompiler.cxx.obj -c E:\Clion_for_STM32\FOC_OpenLoop\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-kqvljg\testCXXCompiler.cxx
+    Linking CXX static library libcmTC_c63dd.a
+    "E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -P CMakeFiles\cmTC_c63dd.dir\cmake_clean_target.cmake
+    "E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c63dd.dir\link.txt --verbose=1
+    arm-none-eabi-ar qc libcmTC_c63dd.a CMakeFiles/cmTC_c63dd.dir/testCXXCompiler.cxx.obj
+    Error running link command: 绯荤粺鎵句笉鍒版寚瀹氱殑鏂囦欢銆?CMakeFiles\cmTC_c63dd.dir\build.make:97: recipe for target 'libcmTC_c63dd.a' failed
+    mingw32-make.exe[1]: *** [libcmTC_c63dd.a] Error 2
+    mingw32-make.exe[1]: Leaving directory 'E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kqvljg'
+    Makefile:126: recipe for target 'cmTC_c63dd/fast' failed
+    mingw32-make.exe: *** [cmTC_c63dd/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeError.log".

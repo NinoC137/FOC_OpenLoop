@@ -1,0 +1,124 @@
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i2u1z2
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f51f8/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f51f8.dir\build.make CMakeFiles/cmTC_f51f8.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i2u1z2'
+Building CXX object CMakeFiles/cmTC_f51f8.dir/CMakeCXXCompilerABI.cpp.obj
+E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_f51f8.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-g++.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_f51f8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ e:/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1plus.exe -quiet -v -iprefix e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_f51f8.dir\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\Users\HP\AppData\Local\Temp\ccWbk4Gt.s
+GNU C++14 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "e:/gcc-arm-none-eabi-10-2020-q4-major/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"
+ignoring duplicate directory "e:/gcc-arm-none-eabi-10-2020-q4-major/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"
+ignoring duplicate directory "e:/gcc-arm-none-eabi-10-2020-q4-major/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"
+ignoring duplicate directory "e:/gcc-arm-none-eabi-10-2020-q4-major/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include"
+ignoring nonexistent directory "e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib/gcc/arm-none-eabi/10.2.1/../../../../include"
+ignoring duplicate directory "e:/gcc-arm-none-eabi-10-2020-q4-major/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include-fixed"
+ignoring duplicate directory "e:/gcc-arm-none-eabi-10-2020-q4-major/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1
+ e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi
+ e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward
+ e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include
+ e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed
+ e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a4fe51cc32557f05b9d40da079bbd1f1
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_f51f8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ e:/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_f51f8.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\HP\AppData\Local\Temp\ccWbk4Gt.s
+GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
+COMPILER_PATH=e:/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/;e:/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/;e:/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=e:/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/;e:/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/;e:/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;e:/gcc-arm-none-eabi-10-2020-q4-major/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_f51f8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking CXX static library libcmTC_f51f8.a
+"E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -P CMakeFiles\cmTC_f51f8.dir\cmake_clean_target.cmake
+"E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f51f8.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_f51f8.a CMakeFiles/cmTC_f51f8.dir/CMakeCXXCompilerABI.cpp.obj
+Error running link command: 绯荤粺鎵句笉鍒版寚瀹氱殑鏂囦欢銆?CMakeFiles\cmTC_f51f8.dir\build.make:97: recipe for target 'libcmTC_f51f8.a' failed
+mingw32-make.exe[1]: *** [libcmTC_f51f8.a] Error 2
+mingw32-make.exe[1]: Leaving directory 'E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i2u1z2'
+Makefile:126: recipe for target 'cmTC_f51f8/fast' failed
+mingw32-make.exe: *** [cmTC_f51f8/fast] Error 2
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kqvljg
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c63dd/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c63dd.dir\build.make CMakeFiles/cmTC_c63dd.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kqvljg'
+Building CXX object CMakeFiles/cmTC_c63dd.dir/testCXXCompiler.cxx.obj
+E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-g++.exe   -fdiagnostics-color=always -o CMakeFiles\cmTC_c63dd.dir\testCXXCompiler.cxx.obj -c E:\Clion_for_STM32\FOC_OpenLoop\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-kqvljg\testCXXCompiler.cxx
+Linking CXX static library libcmTC_c63dd.a
+"E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -P CMakeFiles\cmTC_c63dd.dir\cmake_clean_target.cmake
+"E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c63dd.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_c63dd.a CMakeFiles/cmTC_c63dd.dir/testCXXCompiler.cxx.obj
+Error running link command: 绯荤粺鎵句笉鍒版寚瀹氱殑鏂囦欢銆?CMakeFiles\cmTC_c63dd.dir\build.make:97: recipe for target 'libcmTC_c63dd.a' failed
+mingw32-make.exe[1]: *** [libcmTC_c63dd.a] Error 2
+mingw32-make.exe[1]: Leaving directory 'E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kqvljg'
+Makefile:126: recipe for target 'cmTC_c63dd/fast' failed
+mingw32-make.exe: *** [cmTC_c63dd/fast] Error 2
+
+
+

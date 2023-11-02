@@ -1,0 +1,3 @@
+E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/CMakeFiles/FOC_OpenLoop.elf.dir
+E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/CMakeFiles/edit_cache.dir
+E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FOC_OpenLoop"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FOC_OpenLoop.elf">
+				<Option output="E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/FOC_OpenLoop.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H743xx"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Core/Inc"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/retarget"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/FOC"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/MT6701"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 FOC_OpenLoop.elf"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FOC_OpenLoop.elf/fast">
+				<Option output="E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/FOC_OpenLoop.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H743xx"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Core/Inc"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/retarget"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/FOC"/>
+					<Add directory="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/MT6701"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="e:\compiler\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 FOC_OpenLoop.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/FOC_OpenLoop/cmake-build-debug-mingw_stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Inc/FreeRTOSConfig.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Inc/main.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Inc/stm32h7xx_hal_conf.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Inc/stm32h7xx_it.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Src/freertos.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Src/main.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Src/stm32h7xx_hal_msp.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Src/stm32h7xx_it.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Src/syscalls.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Src/sysmem.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Src/system_stm32h7xx.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Core/Startup/startup_stm32h743vitx.s">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h743xx.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Device/ST/STM32H7xx/LICENSE.txt">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/CMSIS/LICENSE.txt">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_i2c.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_lpuart.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_tim.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/STM32H743VITX_FLASH.ld">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/FOC/FOC.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/FOC/FOC.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/FOC/lowpassFilter.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/FOC/lowpassFilter.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/FOC/pid.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/FOC/pid.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/MT6701/MT6701.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/MT6701/MT6701.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/retarget/retarget.c">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/UserApp/retarget/retarget.h">
+			<Option target="FOC_OpenLoop.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/FOC_OpenLoop/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
